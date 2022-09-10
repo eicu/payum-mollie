@@ -1,5 +1,5 @@
 {
-    "name": "webbaard/payum-mollie",
+    "name": "eicu/payum-mollie",
     "type": "library",
     "description": "The Payum extension. It provides Mollie payment integration. used to be maintained by Rafał Muszyński but couldn't see any activity",
     "keywords": ["payment", "payum", "mollie", "sepa", "directdebit", "creditcard"],
@@ -7,12 +7,12 @@
     "license": "GPLv3",
     "authors": [
         {
-            "name": "Tim Huijzers",
-            "email": "webbaard@gmail.com"
+            "name": "Andre Salmon",
+            "email": "mail@andre-salmon.de"
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": ">=7.2",
         "payum/core": "^1.5",
         "mollie/mollie-api-php": "^2.44"
     },
